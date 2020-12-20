@@ -1,11 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyC8lbdecFOE_PLf2klQyagiMUojGd7F-j8",
-    authDomain: "creative-agency-fire-auth.firebaseapp.com",
-    databaseURL: "https://creative-agency-fire-auth.firebaseio.com",
-    projectId: "creative-agency-fire-auth",
-    storageBucket: "creative-agency-fire-auth.appspot.com",
-    messagingSenderId: "79897335786",
-    appId: "1:79897335786:web:8cbcfef0893dd65ea50493"
-  };
+  apiKey: "AIzaSyBYNffV7Ae5cUSDO-vHI7mM14bNqm27TwY",
+  authDomain: "movie-ticket-booking-task.firebaseapp.com",
+  projectId: "movie-ticket-booking-task",
+  storageBucket: "movie-ticket-booking-task.appspot.com",
+  messagingSenderId: "596939402202",
+  appId: "1:596939402202:web:4be2b8c1aa68120315eee3"
+};
 
   export default firebaseConfig;

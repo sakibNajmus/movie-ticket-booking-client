@@ -1,6 +1,7 @@
 import React from 'react';
 import Modal from 'react-modal';
 import './ScheduleForm.css'
+import SeatSelector from './SeatSelector'
 
 const customStyles = {
     content: {
@@ -15,7 +16,7 @@ const customStyles = {
 
 Modal.setAppElement('#root')
 
-const ScheduleForm = ({modalIsOpen, closeModal, scheduleOn, date}) => {
+const ScheduleForm = ({modalIsOpen, timing, closeModal, scheduleOn, date}) => {
 
     const onSubmit = data => {
         data.service = scheduleOn;
@@ -47,7 +48,10 @@ const ScheduleForm = ({modalIsOpen, closeModal, scheduleOn, date}) => {
 
             <h2 style={{color: '#1cc7c1'}} className="text-center" >{scheduleOn}</h2>
             <p className="text-center text-secondary"><small>On {date.toDateString()}</small></p>
-            <div id="seat"></div>
+            <p className="text-center text-secondary"><small>{timing.totalSeats} SEATS AVAILABLE</small></p>
+            <div className="seat-arrangement">
+                <SeatSelector></SeatSelector>
+            </div>
             </Modal>
         </div>
     );

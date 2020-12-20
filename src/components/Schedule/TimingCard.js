@@ -18,7 +18,7 @@ const TimingCard = ({date, timing}) => {
                     <h6>{timing.showTime}</h6>
                     <p>{timing.totalSeats} SEATS AVAILABLE</p>
                     <button onClick={openModal} className="btn btn-primary text-uppercase">Book Ticket</button>
-                    <ScheduleForm modalIsOpen={modalIsOpen} date={date} scheduleOn={timing.subject} closeModal={closeModal} date={date}></ScheduleForm>
+                    <ScheduleForm modalIsOpen={modalIsOpen} date={date} timing={timing} scheduleOn={timing.subject} closeModal={closeModal} date={date}></ScheduleForm>
                 </div>
             </div>
         </div>
