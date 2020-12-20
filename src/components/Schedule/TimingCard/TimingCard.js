@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ScheduleForm from './ScheduleForm';
+import ScheduleForm from '../ScheduleForm/ScheduleForm';
 
 const TimingCard = ({date, timing}) => {
     const [modalIsOpen,setIsOpen] = useState(false);

@@ -90,7 +90,7 @@ export default class App extends Component {
           isReserved: true,
           tooltip: "Reserved by Matthias Nadler"
         },
-        { id: 8, number: 2, isReserved: true },
+        { id: 8, number: 2, isReserved: true, tooltip: "Reserved by Jhangkar Mahbub" },
         null,
         { id: 9, number: "3", isReserved: true, orientation: "east" },
         { id: 10, number: "4", orientation: "west" },
@@ -155,7 +155,7 @@ export default class App extends Component {
             addSeatCallback={this.addSeatCallback}
             removeSeatCallback={this.removeSeatCallback}
             rows={rows}
-            maxReservableSeats={3}
+            maxReservableSeats={10}
             alpha
             visible
             selectedByDefault

@@ -1,5 +1,5 @@
 import React from 'react';
-import TimingCard from './TimingCard';
+import TimingCard from '../TimingCard/TimingCard';
 
 const timingData = [
     {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import DateCalendar from './DateCalendar';
-import Timing from './Timing';
+import DateCalendar from './DateCalendar/DateCalendar';
+import Timing from './Timing/Timing';
 
 const Schedule = () => {
     const [selectedDate, setSelectedDate] = useState(new Date());
