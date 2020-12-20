@@ -76,7 +76,7 @@ export default class App extends Component {
           number: "3",
           isReserved: true,
           orientation: "east",
-          tooltip: "Reserved by Rogger"
+          tooltip: "Reserved by Rezaul Hassan"
         },
         { id: 4, number: "4", orientation: "west" },
         null,
@@ -88,11 +88,11 @@ export default class App extends Component {
           id: 7,
           number: 1,
           isReserved: true,
-          tooltip: "Reserved by Matthias Nadler"
+          tooltip: "Reserved by Tanvir Islam"
         },
         { id: 8, number: 2, isReserved: true, tooltip: "Reserved by Jhangkar Mahbub" },
         null,
-        { id: 9, number: "3", isReserved: true, orientation: "east" },
+        { id: 9, number: "3", isReserved: true, tooltip: "Reserved by Shrikanta Mazumder", orientation: "east" },
         { id: 10, number: "4", orientation: "west" },
         null,
         { id: 11, number: 5 },
@@ -102,7 +102,7 @@ export default class App extends Component {
         { id: 13, number: 1 },
         { id: 14, number: 2 },
         null,
-        { id: 15, number: 3, isReserved: true, orientation: "east" },
+        { id: 15, number: 3, isReserved: true, tooltip: "Reserved by Jhangkar Mahbub", orientation: "east" },
         { id: 16, number: "4", orientation: "west" },
         null,
         { id: 17, number: 5 },
@@ -119,10 +119,10 @@ export default class App extends Component {
         { id: 24, number: 6 }
       ],
       [
-        { id: 25, number: 1, isReserved: true },
+        { id: 25, number: 1, isReserved: true, tooltip: "Reserved by Jhangkar Mahbub" },
         { id: 26, number: 2, orientation: "east" },
         null,
-        { id: 27, number: "3", isReserved: true },
+        { id: 27, number: "3", isReserved: true, tooltip: "Reserved by Rezaul Karim" },
         { id: 28, number: "4", orientation: "west" },
         null,
         { id: 29, number: 5, tooltip: "Cost: 11$" },
