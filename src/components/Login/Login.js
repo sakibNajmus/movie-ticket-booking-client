@@ -46,11 +46,11 @@ const Login = () => {
     <section>
       <div class="container mt-5 pt-5">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-4">
 
                     </div>
 
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                         <div class="login-form">
                             <h3 class="mb-3">Login With</h3>
                             <div class="login-alternative">
@@ -60,7 +60,7 @@ const Login = () => {
                         </div>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-md-4">
 
                     </div>
                 </div>
